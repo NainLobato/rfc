@@ -8,6 +8,8 @@ Librería para calcular el Registro Federal de Contribuyentes en México (RFC) -
 ``` php
    
     //Persona físicas
+    use RFC\RfcBuilder;
+    
     $builder = new RfcBuilder();
     
     $rfc = $builder->name('Juan José')
@@ -20,6 +22,8 @@ Librería para calcular el Registro Federal de Contribuyentes en México (RFC) -
     echo $rfc;
     
     //Personas morales
+    use RFC\RfcBuilder;
+    
     $builder = new RfcBuilder();
     
     $rfc = $builder->legalName('AUTOS PULLMAN, S.A. DE C.V.')
@@ -34,7 +38,7 @@ Librería para calcular el Registro Federal de Contribuyentes en México (RFC) -
 
 Con composer
 ``` bash
-    composer require nainlobato/rfc
+    composer require nainlobato/rfc dev-master
 ```
 
 ## Fuente
