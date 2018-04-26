@@ -1,0 +1,23 @@
+{
+    "name": "nainlobato/rfc",
+    "description": "Librería para calcular el Registro Federal de Contribuyentes en México (RFC)",
+    "keywords": ["rfc", "rfc mexico"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Nain Lobato",
+            "email": "wolverinenain@gmail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+      "classmap": [],
+      "psr-4": {
+        "RFC\\": "RFC/"
+      },
+      "files": []
+    }
+}
