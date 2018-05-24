@@ -52,7 +52,7 @@ Cabe advertir que sólo la Secretaría de Hacienda y Crédito Público, a travé
 - NET [migsalazar/RfcFacil](https://github.com/migsalazar/RfcFacil)
 
 ## Contribuciones
-- Reporta errores o sugerencias en: [https://github.com/juanjoc333/rfc-facil-php/issues](https://github.com/juanjoc333/rfc-facil-php/issues)
+- Reporta errores o sugerencias en: [https://github.com/NainLobato/rfc/issues](https://github.com/NainLobato/rfc/issues)
 
 ## Agradecimientos
 Esta librería es una versión actualizada para PHP de la librería [rfc-facil](https://github.com/juanjoc333/rfc-facil-php/) escrita por [juanjoc333](https://github.com/juanjoc333). 
