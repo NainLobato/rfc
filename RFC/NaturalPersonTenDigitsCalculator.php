@@ -182,7 +182,8 @@ class NaturalPersonTenDigitsCalculator
         preg_match(self::$vowelPattern, $normalizedWord, $matches);
 
         if(!count($matches)){
-            throw new InvalidArgumentException("Word doesn't contain a vowel: " . $normalizedWord);
+            return "X";
+            //throw new InvalidArgumentException("Word doesn't contain a vowel: " . $normalizedWord);
         }
 
         return substr($matches[0], 0, 1);
