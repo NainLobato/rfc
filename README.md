@@ -5,11 +5,12 @@ Librería para calcular el Registro Federal de Contribuyentes en México (RFC) -
 
 ## Uso
 
-``` php
+```php
    
-    //Persona físicas
-    use RFC\RfcBuilder;
+    use NainLobato\RFC\RfcBuilder;
     
+    //Persona físicas
+
     $builder = new RfcBuilder();
     
     $rfc = $builder->name('Juan José')
@@ -22,7 +23,6 @@ Librería para calcular el Registro Federal de Contribuyentes en México (RFC) -
     echo $rfc;
     
     //Personas morales
-    use RFC\RfcBuilder;
     
     $builder = new RfcBuilder();
     

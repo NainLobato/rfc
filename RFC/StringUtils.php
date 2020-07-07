@@ -1,6 +1,6 @@
 <?php
 
-namespace RFC;
+namespace NainLobato\RFC;
 
 
 class StringUtils

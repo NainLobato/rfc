@@ -16,7 +16,7 @@
     "autoload": {
       "classmap": [],
       "psr-4": {
-        "RFC\\": "RFC/"
+        "NainLobato\\RFC\\": "RFC/"
       },
       "files": []
     }

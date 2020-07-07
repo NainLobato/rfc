@@ -1,6 +1,6 @@
 <?php
 
-namespace RFC\SpanishNumbers;
+namespace NainLobato\RFC\SpanishNumbers;
 
 
 class FirstPeriod
